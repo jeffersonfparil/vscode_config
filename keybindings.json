@@ -1,0 +1,34 @@
+// Place this file of custom keybindings to:
+// In windows: `S:/Users/<YOUR_USERNAME>/AppData/Roaming/Code/User/keybindings.json` or ...
+// In Linux: ...
+// In Mac: ...
+
+[
+    {
+        "key": "ctrl+alt+q",
+        "command": "workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+shift+alt+q",
+        "command": "workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    }
+
+
+    {
+        "key": "ctrl+shift+alt+enter",
+        "command": "workbench.action.terminal.runSelectedText"
+    }
+    // Toggle between terminal and editor focus
+    { "key": "alt+`", "command": "workbench.action.terminal.focus"},
+    { "key": "alt+`", "command": "workbench.action.focusActiveEditorGroup", "when": "!editorFocus"}
+]
