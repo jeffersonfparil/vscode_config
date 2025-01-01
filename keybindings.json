@@ -21,14 +21,18 @@
     {
         "key": "ctrl+q",
         "command": "-workbench.action.quickOpenView"
-    }
-
-
+    },
     {
         "key": "ctrl+shift+alt+enter",
         "command": "workbench.action.terminal.runSelectedText"
-    }
+    },
     // Toggle between terminal and editor focus
-    { "key": "alt+`", "command": "workbench.action.terminal.focus"},
-    { "key": "alt+`", "command": "workbench.action.focusActiveEditorGroup", "when": "!editorFocus"}
+    { 
+        "key": "alt+`", 
+        "command": "workbench.action.terminal.focus"
+    },
+    { 
+        "key": "alt+`", 
+        "command": "workbench.action.focusActiveEditorGroup", "when": "!editorFocus"
+    }
 ]
