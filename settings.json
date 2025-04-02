@@ -1,0 +1,32 @@
+{
+...
+"editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "heading.1.markdown entity.name.section.markdown, heading.1.markdown punctuation.definition.heading.markdown",
+                "settings": 
+                {
+                    "foreground": "#fb8072",
+                    "fontStyle": "bold underline",
+                }
+            },
+            {
+                "scope": "heading.2.markdown entity.name.section.markdown, heading.2.markdown punctuation.definition.heading.markdown",
+                "settings":
+                {
+                    "foreground": "#8dd3c7",
+                    "fontStyle": "bold",
+                }
+            },
+            {
+                "scope": "heading.3.markdown entity.name.section.markdown, heading.3.markdown punctuation.definition.heading.markdown",
+                "settings":
+                {
+                    "foreground": "#bebada",
+                    "fontStyle": "italic underline",
+                }
+            }
+        ]
+    }
+...
+}
