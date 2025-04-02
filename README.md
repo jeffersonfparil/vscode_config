@@ -5,7 +5,13 @@ Extensions to install:
 - **Visual Studio Code WSL** | search: `WSL` | [web link](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 - **rust-analyzer** | search: `rust-analyzer` | [web link](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
 
+## Keybindings
+
 Define custom keybindings for switching between the editor and the terminal and sending highlighted code or the whole line of code into the terminal. Move `keybindings.json` into:
 - In Windows: `C:/Users/<YOUR_USERNAME>/AppData/Roaming/Code/User/keybindings.json` or ...
 - In Linux: `...`
 - In Mac: `...`
+
+## Markdown heading colours
+
+Add the contents of `settings.json` into your local `settings.json` file.
